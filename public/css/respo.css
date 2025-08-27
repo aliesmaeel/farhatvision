@@ -1,0 +1,578 @@
+@media(max-width:1199px) and (min-width:992px){
+   .details_blog_page .details_blog{
+    top: -200px;
+    padding-top: 17rem;
+   }
+    .details_blog .grid_container.sections{
+        gap:1rem
+    }
+    .details_blog .grid_container.sections .col.third_section .art_director .grid_container .col:first-of-type img{
+        width: 30px;
+    }
+    .details_likes, .details_shared{
+        width: 93%;
+    }
+    .about_page .swiper_expert .swiper-button-prev,
+    .team_details.our_team_page .testimonials_section.titles_section  .swiper_testimonials .swiper-button-prev  {
+        left: 83% !important;
+    }
+    .property_details .content .grid_container.grid_desc .details{
+        flex-wrap: wrap;
+    }
+    .vision .grid_container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .blog .grid-container,
+    .details_blog_page .similar_blogs .grid-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .services .content .grid-container,
+    .content_result .content .grid-container,
+    .get_started .grid-container{
+       
+        grid-template-columns: repeat(2, 1fr);
+       
+    }
+.dropdown  {
+    width: 280px;
+}
+.main_title{
+    font-size: 55px;
+}
+}
+@media(max-width:991px) and (min-width:768px){
+    .business_card_page .grid_container{
+        display: grid;
+          grid-template-columns: repeat(1, 1fr) !important;
+          gap: 2rem;
+          padding: 2rem 0;
+          align-items: center;
+    
+     }
+     .business_card_page .grid_container .col{
+        grid-column:span 1 !important;
+        padding: 1rem 0; 
+     }
+    .team_details .box_details .box_container .grid_container{
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 3rem;
+
+    }
+    .signup_email_form{
+        width: 80%;
+    }
+    .offplan_page .sign_up .content .flex_col .desc {
+        width: 95%;
+    }
+    .property_details .content .flex_container.grid_desc .col.small,
+    .property_details .similar_boxs .box_simi .cont{
+        /* margin-top: 5rem; */
+        width: 100%;
+    }
+    .property_details .content .flex_container.grid_desc .col.small .box_details{
+        margin-top: 5rem;
+    }
+    .details_blog_page .details_blog{
+        top: -200px;
+        padding-top: 17rem;
+       }
+    .about_page .swiper_expert .swiper-button-prev,
+    .team_details.our_team_page .testimonials_section.titles_section  .swiper_testimonials .swiper-button-prev{
+        left: 80% !important;
+    }
+    .get_started .grid-container{
+       
+        grid-template-columns: repeat(2, 1fr);
+       
+    }
+    .home_page .bg_global{
+        background: linear-gradient(to bottom, #1e1e1e00, #272727 5%, #3a3a3a 40%, #383838 100%, #58585800 0% 73%);
+
+      }
+   
+    .features .grid_features{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .property_details .content .grid_container.grid_desc .details{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .blog .grid-container,
+    .details_blog_page .similar_blogs .grid-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .vision .grid_container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .services .content .grid-container,
+    .content_result .content .grid-container{
+       
+        grid-template-columns: repeat(2, 1fr);
+       
+    }
+    .dropdown  {
+        width: 280px;
+    }
+    .main_title{
+        font-size: 45px;
+    }
+    
+}
+@media(max-width:767px) and (min-width:600px){
+    .offplan_details_page  .paymant_plans .boxes_paymant_plans{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .details_blog_page .details_blog{
+        top: -200px;
+        padding-top: 17rem;
+       }
+    .about_page .swiper_expert .swiper-button-prev,
+    .team_details.our_team_page .testimonials_section.titles_section  .swiper_testimonials .swiper-button-prev{
+        left: 75% !important;
+    }
+   
+}
+@media(max-width:991px){
+ 
+    .offplan_details_page.property_details .content .flex_container.grid_desc .col.big,
+    .offplan_details_page.property_details .content .flex_container.grid_desc .col.small {
+        width: 100%;
+    }
+    .maps-section{
+        width: 100%;
+    }
+    .team_details.our_team_page .testimonials_section.titles_section .desc{
+        width:90%
+    }
+    .offplan_page .grid_offplan{
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+    .our_team_page .few_words .grid_container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .our_team_page .few_words .grid_container .col.grid_col,
+    .about_page .about_us .flex_col .col .title2.w_100 {
+        width:100%
+    }
+    .our_team_page .few_words .grid_container .col.flex_dir_col .sub_title,
+    .team_details.our_team_page .testimonials_section.titles_section .title2,
+    .our_team_page .talking_expert .title ,
+    .about_page .our_expert .title2,
+    .talking_expert .title{
+        font-size: 38px;
+    }
+    .details_blog .grid_container.sections .col:nth-of-type(2){
+        order:3;
+        grid-column: span 6;
+    }
+    .details_blog .grid_container.sections .col:nth-of-type(3),
+    .details_blog .grid_container.sections .col:nth-of-type(1){
+        grid-column: span 6;
+    }
+    .details_blog .grid_container.sections .col.icons_Section{
+        flex-direction: row;
+    }
+    .about_page .about_us .flex_col .col{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        gap: 3rem;
+        
+      }
+      .about_page .about_us .flex_col .col:first-child .title2 {
+        font-size: 36px;
+    }
+      .about_page .about_us .flex_col .col:nth-child(2) .second{
+        order:1
+      }
+    .content_result{
+        background: linear-gradient(to bottom, #1e1e1e00, #272727 4%, #3a3a3a 40%, #383838 100%, #58585800 0% 73%);
+    }
+    #contactForm_view .grid_container{
+        display: block;
+     }
+     #contactForm_view .flex_container{
+         flex-direction: column;
+         justify-content: flex-start;
+         align-items: flex-start;
+         
+     }
+    .property_details .content .flex_container.grid_desc{
+        flex-direction: column;
+    }
+    .property_details .content .flex_container.grid_desc .col.big {
+        width: 100%;
+    }    
+    /* .content_result {
+        background: linear-gradient(to bottom, #1e1e1e00, #272727 1%, #3a3a3a 40%, #383838 100%, #58585800 0% 73%);
+    } */
+    .offplan_projects .main_content .flex_container .col{
+        width:100%
+    }
+    .offplan_projects .main_content .flex_container img{
+        object-fit: cover;
+    }
+    .offplan_projects .main_content .flex_container{
+        display: flex
+        ;
+            gap: 2rem;
+            flex-direction: column;
+    }
+    .offplan_projects .main_content .flex_container img{
+        height: max-content;
+    }
+    .footer .content .grid-container{
+        grid-template-columns: repeat(1, 1fr);
+        width:100%
+    }
+    .footer .content .grid-container .col{
+        justify-content: flex-start;
+        align-items: flex-start;
+        width:100%
+    }
+    .footer .content .grid-container div{
+        width: 98%;
+    }
+}
+@media(max-width:599px){
+    .our_team_page .few_words .grid_container .col.grid_col .box_col .num {
+        font-size: 42px;
+    }
+    .details_blog_page.about_page.only_blogs_details .bg_empty{
+        height:40px 
+    }
+    .offplan_details_page  .paymant_plans .boxes_paymant_plans{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .offplan_page .grid_offplan .col{
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+    .details_blog_page .details_blog{
+        top: -284px;
+        padding-top: 17rem;
+       }
+       .details_blog_page.about_page .bg_empty {
+        height: 284px;
+        margin-top: -284px;
+    }
+    .about_page .swiper_expert .swiper-button-prev,
+    .team_details.our_team_page .testimonials_section.titles_section  .swiper_testimonials .swiper-button-prev {
+        left: 63% !important;
+    }
+    /* .home_page .search-realestate .main_title{
+        padding-top: 5rem;
+    } */
+    .property_details .content .flex_container.grid_desc .details{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 2rem;
+    }
+    .features .grid_features{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .features .grid_features .col{
+        align-items: flex-start!important;
+    }
+}
+@media(max-width:489px){
+  
+    .about_page .about_us{
+        top: -186px;
+        z-index: 11;
+        padding-top: 15rem;
+      
+      }
+    .property_details .content .grid_container.grid_desc .details{
+        flex-wrap: wrap;
+        justify-content: flex-start !important;
+    }
+}
+@media(max-width:767px){
+    .business_card_page .grid_container{
+        display: grid;
+          grid-template-columns: repeat(1, 1fr) !important;
+          gap: 2rem;
+          padding: 2rem 0;
+          align-items: center;
+    
+     }
+     .business_card_page .grid_container .col{
+        grid-column:span 1 !important;
+        padding: 1rem 0; 
+     }
+    .property_details .similar_boxs .box_simi .list .desc,
+    .property_details .similar_boxs .box_simi .list .title{
+    width: 90% !important;
+    }
+    .services .content .title,
+    .vision .title, .offplan_projects .title, .team .title, .blog .title,
+    .home_only .our_expert .text-content .title {
+        font-size: 36px;
+    }
+    .property_details .content .flex_container .col:first-of-type {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    .team_details .grid_container.details_section{
+        justify-content: center;
+        display: flex !important
+    ;
+        flex-direction: column;
+        gap:1rem
+    }
+    .team_details .grid_container.details_section .col.pic{
+        text-align: center;
+        order:1
+    }
+    .team_details .box_details .box_container{
+        width:90%
+    }
+    .team_details .box_details .box_container .grid_container{
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 3rem;
+
+    }
+    .signup_email_form{
+        width: 100%;
+    }
+    .signup_email_form .contact_email button{
+        cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 0.9rem 1rem;
+    background-color: #C6A45A;
+    display: flex
+;
+    color: #fff;
+    font-size: 17px;
+    align-items: center;
+    gaP: 0.5REM;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    width: 100%;
+    text-align: center;
+    display: flex
+;
+    justify-content: center;
+    }
+    .signup_email_form .contact_email{
+        flex-direction: column;
+    }
+    .offplan_page .sign_up .content .flex_col .desc,
+    .signup_email_form .contact_email .flex input {
+        width: 100%;
+    }
+    .signup_email_form .left_s {
+        left: 0.5rem;
+    }
+    .offplan_page .sign_up .content .flex_col{
+        width: calc(100% - 4rem);
+        padding-top: 2rem;
+        padding-bottom: 5rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin: 0 auto;
+        display: flex
+    ;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .get_started{
+       
+        top: -173px;
+      
+        padding-top: 9rem;
+      }
+      
+    .get_started .grid-container{
+       
+        grid-template-columns: repeat(1, 1fr);
+       
+    }
+    .about-section:first-of-type{
+        margin-top: -305px;
+    }
+    .search_result form.form_search{
+        top: 22px;
+      }
+      .search_result .content_result{
+        background: linear-gradient(to bottom, #1e1e1e00, #272727 3%, #3a3a3a 40%, #383838 100%, #58585800 0% 73%);
+
+      }
+    .bg_global{
+        background: linear-gradient(to bottom, #1e1e1e00, #272727 2%, #3a3a3a 40%, #383838 100%, #58585800 0% 73%);
+    }
+    .services .content .buttons{
+        flex-direction: column;
+        height:fit-content
+    }
+    .services .content .buttons div.active{
+        width: 100%;
+    }
+    .container_buttons .buttons div:last-child {
+        border-bottom-left-radius: 16px;
+        border-bottom-right-radius: 16px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+    .container_buttons .buttons div:first-child {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+    }
+    .about-section .title{
+        font-size: 36px;
+    }
+    .property_details .content .flex-row .name {
+        font-size: 30px;
+    }
+    .property_details .similar_boxs .box_simi .cont{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .property_details .content .flex_container.grid_desc .col.small .box_details .flex.btn{
+        flex-direction: column;
+    gap: 0.8rem;
+    }
+    .property_details .box_average .cont .flex_container
+{
+    width:90%;
+    padding: 1rem;
+}
+
+.property_details .box_average .cont .size_flex .flex, .property_details .box_average .cont .price_flex .flex{
+    display: flex
+    ;
+        align-items: flex-start;
+        gap: 3rem;
+        margin-top: 1rem;
+        flex-direction: column;
+}
+  
+    .property_details .content .flex_container.grid_desc .col.small .box_details .flex.btn a {
+        width: 70%;
+    }
+    .calculator .content .text{
+        width: 90%;
+    }
+    .property_details .content .flex_container.grid_desc .col.small{
+        margin-top: 5rem;
+        width: 100%;
+    }
+    .property_details .content .flex_container.grid_desc .col.small .box_details .flex div.fit{
+        width: 90%;
+    }
+    .calculator .content .grid_content{
+        display: block;
+    }
+    .calculator .content .grid_content .input_div{
+        justify-content: space-between;
+    }
+    .calculator .content .grid_content .input_box.submit_col{
+        margin-top: 2rem;
+        margin-bottom: 0.5rem;
+    }
+    .features .grid_features{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .property_details .content .flex_container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .property_details .content .grid_container.grid_desc .col{
+        align-items: center;
+    }
+    .property_details .content .grid_container.grid_desc .details{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .property_details .content .grid_container.grid_desc{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .property_details .content .grid_container.grid_desc .col {
+        grid-column: span 1;
+    }
+    /* .property_details .content .grid_container.grid_desc .details{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    } */
+    .property_details .content .flex-row{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.5rem;
+    }
+    .property_details .content .grid_container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .property_details .content .grid_container .col:first-of-type{
+        grid-column: span 1;
+    }
+    .question .grid_container{
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    .question .grid_container .question_container{
+        grid-column: span 1;
+    }
+    .content_result .col.only_search_result.new_villa .images_explain{
+        position: relative;
+        padding-top: 13rem;
+    }
+    .blog .grid-container .blog_2_box.col{
+        min-height: 420px;
+    }
+    .blog .grid-container,
+    .details_blog_page .similar_blogs .grid-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .blog .grid-container .blog_2_box.col{
+        grid-column: span 1;
+    }
+    .team .swiper-slide{
+        width:300px
+    }
+    .team .icons img{
+        width:44px
+    }
+    .team .img_container{
+        width:150px
+    }
+    .services .content .grid-container,
+    .content_result .content .grid-container{
+       
+        grid-template-columns: repeat(1, 1fr);
+       
+    }
+    .vision .grid_container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .main_title{
+        font-size: 28px;
+    }
+    .desc_title .desc{
+        font-size: 16px;
+        
+    }
+    .dropdown  {
+        width: 280px;
+    }
+    .input-search .content{
+        flex-direction: column;
+        justify-content: center;
+    
+}
+.search_input{
+    text-align: center;
+    width: 86%;
+    padding: 0;
+}
+.input-search {
+    height: 130px;
+}
+.submit_btn{
+    margin: 0 0 0.8rem 0;
+}
+    
+}
+
