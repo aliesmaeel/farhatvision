@@ -32,8 +32,13 @@
                             <img src="/images/tel.svg">
                             <a href="tel:{{ $businessCard->phone }}" class="text-blue-500 hover:underline">{{ $businessCard->phone }}</a>
                         </div>
-                        <div class="text">
-                            <span>Website:</span> <a href="//{{ $businessCard->url }}" class="text-blue-500 hover:underline" target="_blank">{{ $businessCard->url }}</a>
+                        <div class="flex">
+                            <svg width="25" height="25" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="9" stroke="white" stroke-width="2"/>
+                                <path d="M3 12h18" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M12 3c3 4 3 14 0 18M12 3c-3 4-3 14 0 18" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                            <a href="//{{ $businessCard->url }}" class="text-blue-500 hover:underline" target="_blank">{{ $businessCard->url }}</a>
                         </div>
                         <div class="btn_contact">
                             <a href="{{ route('business-card.vcard', $businessCard->id) }}">
