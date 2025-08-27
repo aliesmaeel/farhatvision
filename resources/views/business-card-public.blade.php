@@ -14,7 +14,10 @@
         <div class="content">
             <div class="grid_container">
                 <div class="col img_container">
-                    <img src="{{ asset('/storage/'.$businessCard->logo) }}">
+
+                    <img
+                        style="{{($businessCard->bright ? 'filter:brightness(5)' : '')}}"
+                        src="{{ asset('/storage/'.$businessCard->logo) }}">
                 </div>
                 <div class="col details_card_business">
                     <div class="flex_col">

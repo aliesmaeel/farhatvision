@@ -5,9 +5,14 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Str;
 use SimpleSoftwareIO\QrCode\Facades\QrCode;
 
-Route::get('/calculate-your-investment',function () {
-    return response()->file(public_path('discover_investments.html'));
+Route::get('/calculate-your-investment', function () {
+    return response()->make(
+        file_get_contents(public_path('discover_investments.html')),
+        200,
+        ['Content-Type' => 'text/html']
+    );
 });
+
 
 Route::get('/', function () {
     return view('welcome');

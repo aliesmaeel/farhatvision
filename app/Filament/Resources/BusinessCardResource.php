@@ -13,6 +13,7 @@ use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
+use Illuminate\Support\Facades\Storage;
 
 class BusinessCardResource extends Resource
 {
@@ -31,7 +32,12 @@ class BusinessCardResource extends Resource
                     ->directory('business-cards')
                     ->visibility('public')
                     ->default(null)
-                    ->required(),
+                    ->required()
+                    ->deleteUploadedFileUsing(function ($file, $record) {
+                        if ($record && $record->getOriginal('logo')) {
+                            Storage::disk('public')->delete($record->getOriginal('logo'));
+                        }
+                    }),
                 Forms\Components\TextInput::make('name')
                     ->required()
                     ->maxLength(255),
@@ -54,6 +60,11 @@ class BusinessCardResource extends Resource
                 Forms\Components\TextInput::make('url')
                     ->maxLength(255)
                     ->default(null),
+                //boolean
+                Forms\Components\Toggle::make('bright')
+                    ->label('Is bright')
+                    ->default(false)
+                    ->required(),
             ]);
     }
 
