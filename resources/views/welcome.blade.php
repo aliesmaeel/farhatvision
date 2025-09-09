@@ -323,10 +323,9 @@
                 <div class="grid_Container">
                     <div class="col" data-aos="fade-up">
                         <img src="assets/images/mr_img1.png">
-                        <div class="title">Brand Builder Award Winner</div>
+                        <div class="title">Why Mohammad Farhat Is the Unstoppable Mastermind of Middle East Marketing</div>
                         <div class="desc">
-                            Check out our sleek and modern corporate website that showcases the client's brand and services.
-                            Its responsive design ensures a consistent experience across devices.
+
                         </div>
                         <a class="link" target="_blank"  href="https://uaestories.com/why-mohammad-farhat-is-the-unstoppable-mastermind/">
                             <div>View more details</div>
@@ -335,10 +334,9 @@
                     </div>
                     <div class="col" data-aos="fade-up">
                         <img src="assets/images/mr_img2.png">
-                        <div class="title">Brand Builder Award Winner</div>
+                        <div class="title">Mohammad Farhat: The Digital Maestro Orchestrating Dubai’s PR and Real Estate Brilliance</div>
                         <div class="desc">
-                            Check out our sleek and modern corporate website that showcases the client's brand and services.
-                            Its responsive design ensures a consistent experience across devices.
+
                         </div>
                         <a target="_blank" class="link" href="https://businessmag.ae/mohammad-farhat-the-digital-maestro-orchestrating-dubais-pr-and-real-estate-brilliance/">
                             <div>View more details</div>
