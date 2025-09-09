@@ -34,7 +34,7 @@
 }
 body{
   position: relative;
- 
+
 }
 
 body, html {
@@ -134,7 +134,7 @@ left: 50%;
   align-items: center;
   justify-content: center;
   gap:1rem
-  
+
 }
 .main_title{
   font-size: 60px;
@@ -148,15 +148,15 @@ left: 50%;
   text-align: center;
 }
 .input-search{
-  /* backdrop-filter: blur(5px); 
+  /* backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);  */
-  background-color: rgba(255, 255, 255, 0.3); 
+  background-color: rgba(255, 255, 255, 0.3);
   border-radius: 14px;
   width: 80%;
   margin: 0 auto;
   padding: 0.5rem;
  height: 80px;
- 
+
 }
 .input-search .content{
   gap:1.5rem;
@@ -266,7 +266,7 @@ margin-top: -170px;
   padding: 1rem;
   top: 5rem;
 
-  
+
 }
 .rotate{
   transform: rotate(180deg);
@@ -473,7 +473,7 @@ padding-top: 7rem;
   z-index: 1;
   right: -30px;
   height: 400px;
-  
+
   background-size: cover;
 
   background-repeat: no-repeat;
@@ -496,7 +496,7 @@ margin: 0 auto;
 .team .text-content,
 .offplan_projects .text-content{
   display: flex;
- 
+
   flex-direction: column;
   gap:1rem
 
@@ -505,7 +505,7 @@ margin: 0 auto;
 .vision .desc{
   color:rgba(255, 255, 255, 1);
   line-height: 35px;
-  
+
 }
 .vision .desc.about-section,
 .offplan_projects .desc{
@@ -521,7 +521,7 @@ margin: 0 auto;
 }
 .vision .text-content{
   display: flex;
- 
+
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -542,7 +542,7 @@ margin: 0 auto;
 
 
 .footer{
- 
+
   color: #fff;
   position: relative;
 }
@@ -566,10 +566,10 @@ margin: 0 auto;
   top: 0; left: 0; right: 0; bottom: 0;
   z-index: 1;
   background-image:
-  linear-gradient(to bottom, #34343400), 
-  
+  linear-gradient(to bottom, #34343400),
+
   url('/images/bg_footer.png')
-  ;                                      
+  ;
 background-repeat: no-repeat;
 background-size: cover;
   background-repeat: no-repeat;
@@ -582,8 +582,8 @@ background-size: cover;
   background-image:
   linear-gradient(to bottom, #34343400,
   rgb(52,52,52))!important
-  
-   
+
+
 
 } */
 .footer .content{
@@ -666,10 +666,10 @@ background-size: cover;
   outline: none;
   border: none;
   font-size: 17px;
-  
+
 }
 .footer .contact_email .flex input::placeholder{
-  
+
 }
 .col.flex-center{
   justify-content: center;
@@ -701,7 +701,7 @@ background-size: cover;
   font-size: 17px;
   line-height: 33px;
   width:100%;
- 
+
 }
 .footer .content .grid-container .read-more{
   color:rgba(198, 164, 90, 1) !important;
@@ -770,7 +770,7 @@ background-size: cover;
   position: relative;
   padding-top: 1rem;
   color: rgba(255, 255, 255, 1);
- 
+
 }
 .terms.flex a{
   color: rgba(255, 255, 255, 1);
@@ -809,7 +809,7 @@ background-size: cover;
   width: 90%;
   margin: 0 auto;
   text-align: center;
-  
+
 }
 .vision .grid_container .col .title{
   font-size: 22px;
@@ -835,13 +835,13 @@ background-size: cover;
   width:100%;
   text-align: center;
   color:rgba(255, 255, 255, 1)
-  
+
 }
 .services .content .desc{
   text-align: center;
   color:rgba(153, 153, 153, 1);
   width:90%;
- 
+
 }
 .services .content .buttons{
   display: flex;
@@ -904,7 +904,7 @@ background-size: cover;
 .container_buttons .buttons div:first-child{
   border-top-left-radius: 16px;
   border-bottom-left-radius: 16px;
-  
+
 }
 .services .content .grid-container,
 .content_result .content .grid-container{
@@ -922,7 +922,7 @@ background-size: cover;
   /* padding: 1rem; */
   border-radius: 22px;
   background: linear-gradient(rgb(70 70 70), rgb(95 95 95 / 30%), rgb(165 165 165 / 0%), rgb(65 64 64));
- 
+
 }
 .services .content .grid-container .img-container,
 .content_result .content .grid-container .img-container{
@@ -944,7 +944,7 @@ background-size: cover;
   padding: 0.3rem 0;
   width: 120px;
   padding-left: 3%;
-  
+
 }
 .services .content .grid-container .flex_desc .single div,
 .content_result .content .grid-container .flex_desc .single div{
@@ -958,7 +958,7 @@ background-size: cover;
   color:#fff;
   text-align: left;
   margin: 0% 5%;
- 
+
 }
 .home_page .col.only_search_result.new_villa{
 display: none !important;
@@ -1115,7 +1115,7 @@ hr{
 .services .content .grid-container .flex_desc .single, .content_result .content .grid-container .flex_desc .single{
   color:#fff;
 
-  
+
 }
 .offplan_projects .title,
 .offplan_projects .desc,
@@ -1193,7 +1193,7 @@ hr{
 }
 .pl_2{
   padding-left: 2rem !important;
- 
+
  }
 .team .swiper-slide {
   width: 434px;
@@ -1240,7 +1240,7 @@ color:rgba(52, 52, 52, 0.5)
 }
 .team .icons img{
   width:50px
-} 
+}
 .team .swiper-slide .name{
 color:rgba(52, 52, 52, 1);
 font-size: 18px;
@@ -1250,7 +1250,7 @@ font-size: 18px;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   margin-top: 2rem;
-  
+
 }
 .blog .grid-container .col{
   display: flex;
@@ -1428,13 +1428,13 @@ text-align: left;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+
 }
 .content_result .col.only_search_result.new_villa .images_explain img{
   width: 33%;
   bottom: 0;
   position: relative;
- 
+
 }
 .content_result .col.only_search_result.new_villa .flex_desc img{
   position: relative !important;
@@ -1463,7 +1463,7 @@ text-align: left;
   z-index: 1;
   top:0;
   left:0;
-  background-color: rgb(0,0,0,0.4);   
+  background-color: rgb(0,0,0,0.4);
 }
 
 .col.only_search_result.new_villa img.bg{
@@ -1507,7 +1507,7 @@ text-align: left;
 }
 .question .grid_container .text .title,
 .question .grid_container .text .desc{
- 
+
   /* font-size: 25px; */
   text-align: left;
 
@@ -1541,7 +1541,7 @@ text-align: left;
   text-align: left;
   font-size: 18px;
   padding: 35px;
- 
+
   cursor: pointer;
   display: flex;
   justify-content: space-between;
@@ -1549,7 +1549,7 @@ text-align: left;
 }
 
 .faq-item.active .faq-question {
-  color: #CEA669; 
+  color: #CEA669;
 }
 
 .faq-icon {
@@ -1582,7 +1582,7 @@ text-align: left;
   color: #92969C;
   font-size: 15px;
   text-align: left !important ;
- 
+
 }
 .faq-item:first-of-type .faq-question{
   padding: 2.5rem 0 2rem;
@@ -1595,7 +1595,7 @@ text-align: left;
 .faq-item.active .faq-answer {
   max-height: 650px;
   padding-bottom: 2.5rem;
-  
+
 }
 .faq-item.active .faq-question{
 color:#CEA669
@@ -1609,7 +1609,7 @@ color:#CEA669
 }
 .property_details .content{
   padding: 4rem 0;
- 
+
 }
 .property_details .content .flex-row{
   display: flex;
@@ -1654,7 +1654,7 @@ color:#CEA669
   align-items: self-start;
 
 }
-.property_details .content .flex_container.grid_desc .title.max-width, 
+.property_details .content .flex_container.grid_desc .title.max-width,
 .property_details .content .flex_container.grid_desc .desc.max-width{
   width:95% !important
 
@@ -1684,7 +1684,7 @@ color:#CEA669
 
 }
 .property_details .content .flex_container.grid_desc .details .flex_col img{
-  
+
 }
 .property_details .content .flex_container.grid_desc .details .flex_col div{
   display: flex
@@ -1694,7 +1694,7 @@ color:#CEA669
   color: #fff;
 
   font-size: 14px;
-  
+
 }
 .property_details .content .flex_container.grid_desc .details span{
   font-weight: 700;
@@ -1710,7 +1710,7 @@ color:#CEA669
       margin-top: 2rem;
       gap: 1rem;
       width: calc(100% - 4rem);
-  
+
 }
 .features {
   margin-top: 2rem;
@@ -1742,7 +1742,7 @@ color:#CEA669
 .property_details .features .col{
   grid-column: span 1 !important;
   color:#fff;
- 
+
 }
 .property_details .features .col div{
   display: flex
@@ -1767,7 +1767,7 @@ color:#CEA669
   margin: 6rem 0 0;
   border: 1px solid #fff;
   border-radius: 28px;
-  background: linear-gradient(to bottom right, #605f5f, rgb(53 53 53 / 90%)) 
+  background: linear-gradient(to bottom right, #605f5f, rgb(53 53 53 / 90%))
   /* background: linear-gradient(rgb(70 70 70), rgb(95 95 95 / 30%), rgb(165 165 165 / 0%), rgb(65 64 64));
   */
 
@@ -1785,7 +1785,7 @@ color:#CEA669
 .calculator .content .text{
   color:#fff;
   padding:1rem 0 1rem 1rem ;
-  
+
 }
 .payment_value{
   color:#fff;
@@ -1801,7 +1801,7 @@ color:#CEA669
 .payment_value div.numb{
   font-weight: 700;
   font-size: 16px;
- 
+
 }
 .payment_value .flex{
   display: flex;
@@ -1880,7 +1880,7 @@ color:#CEA669
   justify-content: space-between;
   padding: 0.2rem 0;
   color: rgba(255,255,255,0.7);
-  
+
 }
 .property_details .content .flex_container.grid_desc .col.small .box_details{
   width:100%;
@@ -1966,7 +1966,7 @@ color:#CEA669
   ;
       align-items: center;
       gap: 0.7rem;
-  
+
 }
 .col.small .white_bg .flex-col{
   display: flex
@@ -2000,14 +2000,14 @@ color:#CEA669
   font-size: 31px;
   font-weight: 600;
   margin: 1rem 0 1.5rem 0;
-  
+
 }
 .property_details .similar_boxs .box_simi{
   width: 100%;
   margin-bottom: 2rem;
   border-radius: 18px;
   background: linear-gradient(rgb(70 70 70), rgb(95 95 95 / 30%), rgb(165 165 165 / 0%), rgb(65 64 64));
-  
+
 }
 .property_details .similar_boxs .box_simi .cont{
   padding: 1rem;
@@ -2016,30 +2016,30 @@ color:#CEA669
   align-items: center;
   gap: 1rem;
   grid-template-columns: repeat(2, 1fr);
-  
+
 }
 .property_details .similar_boxs .box_simi .img_container{
   width: 100%;
   height: 100%;
-  
+
 }
 .property_details .similar_boxs .box_simi .img_container img{
   width: 100% !important;
   height: 100%;
   object-fit: cover;
-  
+
 }
 .property_details .similar_boxs .box_simi .list{
-  
+
 }
 .property_details .similar_boxs .box_simi .list .title{
   font-size: 19px;
-  
+
 }
 .property_details .similar_boxs .box_simi .desc{
   font-size: 14px;
   margin: 0.8rem 0;
-  
+
 }
 .property_details .similar_boxs .box_simi .flex_desc{
   display: flex
@@ -2072,27 +2072,27 @@ color:#CEA669
 .property_details .similar_boxs .box_simi .price_desc{
   margin: 1rem 0 0 0;
   color:#fff
-  
+
 }
 .property_details .similar_boxs .box_simi .price_desc span{
   font-weight: 800;
   font-size: 28px;
-  
+
 }
 .property_details .box_average{
   margin: 5rem 0 3rem;
 }
 .property_details .box_average .cont{
   border-radius: 28px;
-  background: linear-gradient(to bottom right, #605f5f, rgb(53 53 53 / 90%)) 
+  background: linear-gradient(to bottom right, #605f5f, rgb(53 53 53 / 90%))
   /* background: linear-gradient(rgb(70 70 70), rgb(95 95 95 / 30%), rgb(165 165 165 / 0%), rgb(65 64 64)); */;
-  
+
 }
 .property_details .box_average .cont .main_title{
   font-size: 37px;
   font-weight: 600;
   padding: 3rem 0 2rem;
-  
+
 }
 .property_details .box_average .cont .size_flex .flex,
 .property_details .box_average .cont .price_flex .flex{
@@ -2101,7 +2101,7 @@ color:#CEA669
   gap:3rem;
   margin-top: 1rem;
 
-  
+
 }
 .property_details .box_average .cont .flex_container{
   display: flex
@@ -2165,7 +2165,7 @@ color:#CEA669
       grid-template-columns: repeat(3, 1fr);
       gap: 2rem;
       row-gap: 0;
-    
+
 
 }
 #contactForm_view .grid_container .col{
@@ -2259,11 +2259,11 @@ color:#CEA669
   color:#3a3a3a
 }
 #contactForm_view .flex_container #agreeCheckbox{
-  
+
 }
 #contactForm_view .flex_container label{
   color: #fff;
-  
+
 }
 #contactForm_view .flex_container .submit_view{
   background: #CEA669;
@@ -2565,7 +2565,7 @@ color: white;
 .offplan_details_page .swiper_expert_offplan .swiper-slide.swiper-slide-active,
 .home_only .swiper_expert .swiper-slide.swiper-slide-active{
 background: url(/images/bg_gradient.png);
-transform: scale(1.05); 
+transform: scale(1.05);
 z-index: 2;
 transform: scale(1.05);
   z-index: 2;
@@ -2644,7 +2644,7 @@ top:40px !important;
 color: #fff; /* white text */
 font-size: 14px;
 text-transform: uppercase;
-border-bottom: 2px solid #fff; 
+border-bottom: 2px solid #fff;
 padding-bottom: 3px;
 width:50px
 }
@@ -2914,7 +2914,7 @@ display: grid
 ;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
- 
+
 }
 .our_team_page .few_words .grid_container .col.grid_col{
   display: grid
@@ -2924,7 +2924,7 @@ display: grid
     width: 90%;
     position: relative;
     top:-3rem
-   
+
 
 }
 .our_team_page .few_words .grid_container .col.grid_col .box_col{
@@ -2961,7 +2961,7 @@ display: grid
   display: flex;
   gap:0.4rem;
   position: relative;
-  
+
 
 }
 .our_team_page .few_words .grid_container .col.grid_col .box_col .num span{
@@ -2970,7 +2970,7 @@ display: grid
   font-weight: 400;
   position: absolute;
   right: -23px;
-  
+
 }
 .our_team_page .few_words .grid_container .col.grid_col .box_col .text{
   font-weight: 600;
@@ -2998,10 +2998,10 @@ display: grid
 }
 .our_team_page .few_words .grid_container .col.flex_dir_col .title.f_title .line{
   background-color: #A9AFC3;
-   
+
     width: 77px;
     height: 1px;
-  
+
 }
 .our_team_page .few_words .grid_container .col.flex_dir_col .sub_title{
   color: #fff;
@@ -3033,11 +3033,11 @@ display: grid
   font-size: 16px;
 }
 .offplan_page .grid_offplan {
-  
+
     display: grid;
     grid-template-columns: repeat(2, 1fr) !important;
     gap: 2rem;
-    
+
 }
 .offplan_page .grid_offplan .col{
 
@@ -3046,7 +3046,7 @@ display: grid
   grid-template-columns: repeat(2, 1fr) !important;
   gap: 2rem;
   align-items: center;
-  
+
 
 }
 .offplan_page .grid_offplan .col .img_Container{
@@ -3163,7 +3163,7 @@ display: grid
   align-items: center;
   justify-content: space-between;
   /* padding: 0.5rem; */
- 
+
 }
 .signup_email_form .contact_email .flex {
   display: flex
@@ -3265,7 +3265,7 @@ display: grid
 .team_details .grid_container.details_section .info_desc.col .title .line{
   background-color: #C6A45A;
   width:70px;
-  
+
   height:1px
 }
 .team_details .grid_container.details_section .info_desc.col .desc{
@@ -3385,7 +3385,7 @@ display: grid
     line-height: 58px;
     padding: 3rem 0 0;
     width: 90%;
-} 
+}
 .team_details.our_team_page .testimonials_section.titles_section .flex{
   display: flex
   ;
@@ -3477,7 +3477,7 @@ display: grid
 }
 .property_details .content .flex_container#images_details{
   gap:1.4rem ;
-  
+
 }
 .maps-section{
   display: flex
@@ -3597,7 +3597,7 @@ display: grid
     display: grid
 ;
     align-items: center;
-  
+
 }
 .offplan_details_page  .paymant_plans .boxes_paymant_plans .col img{
   width: 33px !important;
@@ -3612,7 +3612,7 @@ display: grid
   font-size: 35px;
   color:#C6A45A;
   text-align: center;
-  
+
 }
 .offplan_details_page  .paymant_plans .boxes_paymant_plans .col{
   grid-column: span 1 !important;
@@ -3660,7 +3660,7 @@ display: grid
   width:240px !important
 }
 .offplan_details_page.property_details .content .flex_container.grid_desc .col.big{
-  
+
   width: 58%;
 
 }
@@ -3678,7 +3678,7 @@ display: grid
     align-items: center;
     height: 100%;
     min-height: 100vh;
-    
+
 }
 .business_card_page .grid_container{
   display: grid;
@@ -3747,7 +3747,7 @@ color: #fff;
 }
 .business_card_page .col.details_card_business .flex_col .flex{
 display: flex;
-gap:1rem; 
+gap:1rem;
 align-items: center;
 }
 .business_card_page .col.details_card_business .flex_col .flex a{
@@ -3774,3 +3774,5 @@ transform: scale(1.1);
 .business_card_page a:hover{
   opacity: 0.8;
 }
+
+
