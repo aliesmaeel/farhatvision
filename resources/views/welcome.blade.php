@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/respo.css">
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-
+    <link rel="icon" type="image/x-icon" href="assets/images/mr.png">
 </head>
 
 <body>
