@@ -830,7 +830,7 @@
             phone: fullPhone,
             message: form.message.value
         };
-        alert(JSON.stringify(formData));
+
         fetch("https://script.google.com/macros/s/AKfycbxu4mSoru8z5wkTKAQYJf0a7aqWAfunrDfXLoziWvbWbLlOrVTsHb798Of7QzvWj4Eq/exec", {
             method: "POST",
             body: JSON.stringify(formData)
