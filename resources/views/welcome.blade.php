@@ -5,6 +5,7 @@
     <title>Marketing Consultant Protfolio</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <meta property="og:title" content="Real Estate Broker in Dubai">
     <meta property="og:description" content="Calculate Your Investment ROI">
     <meta property="og:image" content="{{ asset('/assets/images/mr.png') }}">
