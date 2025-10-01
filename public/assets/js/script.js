@@ -1,7 +1,7 @@
 AOS.init({
-    duration: 400, 
-    easing: 'ease-in-out', 
-   
+    duration: 400,
+    easing: 'ease-in-out',
+
 });
 $(document).on('click', function (event) {
     const $sidebar = $('.right-list');
@@ -29,17 +29,19 @@ var swiper_testimonials = new Swiper('.swiper_testimonials', {
 
     effect: 'slide',
     speed: 500,
-   
-    
-   
-}); 
-var swiper_clients = new Swiper('.swiper_clients', {
-    slidesPerView: 'auto',
 
+
+
+});
+var swiper_clients = new Swiper('.swiper_clients', {
+    slidesPerView: 5,
+    loop: true,               // loop infinitely
     effect: 'slide',
     speed: 500,
-    
-   
+    autoplay: {
+        delay: 2000,            // 2 seconds delay
+        disableOnInteraction: false, // keep autoplay after user swipes
+    },
 });
  // validation for all text/textarea inputs
  $('form input[type="text"], form textarea').on('input', function () {
@@ -78,7 +80,7 @@ $('#phoneInput').on('input', function () {
         if (value === '') {
             errorField.text('This field is required').show();
             isValid = false;
-        } 
+        }
     });
     if (isValid) {
         this.submit();
@@ -89,16 +91,16 @@ function initTestimonials() {
     document.querySelectorAll('.testimonials .swiper_testimonials .swiper-slide .flex_col').forEach(col => {
       var desc = col.querySelector('.desc_slide');
       if (!desc || col.querySelector('.toggle-btn')) return;
-  
+
       if (desc.scrollHeight > desc.clientHeight) {
         var btn = document.createElement('button');
         btn.classList.add('toggle-btn');
         btn.textContent = 'View More';
         col.appendChild(btn);
-  
+
         btn.addEventListener('click', function () {
           desc.classList.toggle('expanded');
-          col.classList.toggle('active'); 
+          col.classList.toggle('active');
           this.textContent = desc.classList.contains('expanded') ? 'View Less' : 'View More';
         });
       }
@@ -109,7 +111,7 @@ function initTestimonials() {
 //     document.querySelectorAll('.testimonials .swiper_testimonials .swiper-slide .flex_col').forEach(col => {
 //       const desc = col.querySelector('.desc_slide');
 //       const btn  = col.querySelector('.toggle-btn');
-  
+
 //       if (desc) desc.classList.remove('expanded');
 //       if (col) col.classList.remove('active');
 //       if (btn) btn.textContent = 'View More';

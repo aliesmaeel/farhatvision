@@ -650,6 +650,14 @@
                         <div class="img_Container">
                             <img src="assets/images/client10.png">
                         </div>
+                    </div>  <div class="swiper-slide">
+                        <div class="img_Container">
+                            <img src="assets/images/client11.png">
+                        </div>
+                    </div>  <div class="swiper-slide">
+                        <div class="img_Container">
+                            <img src="assets/images/client12.png">
+                        </div>
                     </div>
                 </div>
             </div>
