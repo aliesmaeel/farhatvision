@@ -18,6 +18,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
 Route::get('/business-card/{businessCard}', function (BusinessCard $businessCard) {
     return view('business-card-public', compact('businessCard'));
 })->name('business-card.show');
@@ -57,3 +58,9 @@ Route::get('/business-card/{businessCard}/vcard', function (BusinessCard $busine
         ->header('Content-Type', 'text/vcard; charset=utf-8')
         ->header('Content-Disposition', "inline; filename=\"{$fileName}\"");
 })->name('business-card.vcard');
+
+
+Route::get('/elevatia', function () {
+
+    return view('elevatia');
+});
