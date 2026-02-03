@@ -169,7 +169,7 @@
             <img src="elevatia.jpg" alt="ELEVATIA Properties Logo">
         </div>
 
-        <h1>Schedule a Viewing</h1>
+        <h1>Open House Registration Form</h1>
 
         <form id="contactForm" method="POST" action="#">
             <div class="form-row">
@@ -208,7 +208,6 @@
                 <label for="timeSlot">Time Slot *</label>
                 <select id="timeSlot" name="timeSlot" required>
                     <option value="">Choose a time</option>
-                    <option value="09:00">9:00 AM</option>
                     <option value="10:00">10:00 AM</option>
                     <option value="11:00">11:00 AM</option>
                     <option value="12:00">12:00 PM</option>
@@ -217,6 +216,7 @@
                     <option value="15:00">3:00 PM</option>
                     <option value="16:00">4:00 PM</option>
                     <option value="17:00">5:00 PM</option>
+                    <option value="18:00">6:00 PM</option>
                 </select>
             </div>
 
