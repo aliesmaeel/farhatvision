@@ -247,15 +247,9 @@
         const form = document.getElementById('contactForm');
         const phoneInputField = document.querySelector("#phone");
 
-        // Initialize intl-tel-input
+        // Initialize intl-tel-input with UAE as default
         const iti = window.intlTelInput(phoneInputField, {
-            initialCountry: "auto",
-            geoIpLookup: function(success, failure) {
-                fetch("https://ipapi.co/json/") // free geo service, no token needed
-                    .then(res => res.json())
-                    .then(data => success(data.country_code))
-                    .catch(() => success("us"));
-            },
+            initialCountry: "ae",
             utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/js/utils.js"
         });
 
@@ -303,7 +297,7 @@
                     if (data.result === "success") {
                         alert("✅ Great! Your form has been submitted successfully.");
                         form.reset();
-                        iti.setCountry("us"); // reset to default after submit
+                        iti.setCountry("ae"); // reset to UAE after submit
                     } else {
                         alert("⚠️ Something went wrong. Try again.");
                     }
